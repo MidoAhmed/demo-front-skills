@@ -1,1 +1,63 @@
-# demo-front-skills
+# Agent Skills Repository
+
+## Phase A — Repository infrastructure
+
+- **A1. Repository structure**
+- **A2. `validate-skill.sh`**
+- **A3. `package-skill.sh`**
+- **A4. `test-skill.sh`**
+- **A5. `new-skill.sh`**
+- **A6. `install-skill.sh`**
+- **A7. README / documentation**
+
+## Phase B — Build skills
+
+- **B1. `code-review`** ← current
+- **B2. `bug-debugging`**
+- **B3. `regression-check`**
+- **B4. `test-engineering`**
+- **B5. `feature-implementation`**
+
+## Skill lifecycle
+
+```text
+Create
+  ↓
+Validate
+  ↓
+Test
+  ↓
+Package
+  ↓
+Install locally
+  ↓
+Test in real project
+```
+
+## Repository layout
+
+```text
+agent-skills/
+├── skills/
+│   └── code-review/
+│       ├── SKILL.md
+│       └── references/
+│           └── review-checklist.md
+│
+├── tools/
+│   ├── validate-skill.sh
+│   ├── package-skill.sh
+│   ├── test-skill.sh
+│   ├── list-skills.sh
+│   └── install-skill.sh
+│
+├── tests/
+│   └── code-review/
+│       └── basic-review.md
+│
+├── dist/
+│   └── code-review.zip
+│
+├── README.md
+└── CONTRIBUTING.md
+```
