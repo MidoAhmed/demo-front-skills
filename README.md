@@ -34,6 +34,27 @@ Install locally
 Test in real project
 ```
 
+## creation workflow
+
+```text
+./tools/new-skill.sh bug-debugging
+             │
+             ▼
+       Edit SKILL.md
+             │
+             ▼
+./tools/validate-skill.sh bug-debugging
+             │
+             ▼
+./tools/test-skill.sh bug-debugging
+             │
+             ▼
+./tools/package-skill.sh bug-debugging
+             │
+             ▼
+./tools/install-skill.sh ...
+```
+
 ## Repository layout
 
 ```text
