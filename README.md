@@ -3,10 +3,10 @@
 ## Phase A — Repository infrastructure
 
 - **A1. Repository structure**
-- **A2. `validate-skill.sh`**
-- **A3. `package-skill.sh`**
-- **A4. `test-skill.sh`**
 - **A5. `new-skill.sh`**
+- **A2. `validate-skill.sh`**
+- **A4. `test-skill.sh`**
+- **A3. `package-skill.sh`**
 - **A6. `install-skill.sh`**
 - **A7. README / documentation**
 
